@@ -158,10 +158,10 @@ before continuing:
 ```yaml
   daemonsets:
     kube-system:
-    - canal
+    - calico
     - cilium
     - cilium-migrated
-    - kube-multus-canal
+    - kube-multus-calico
     - kube-multus-cilium
     - kube-controller-manager
     - kube-scheduler
